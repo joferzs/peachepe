@@ -4,7 +4,7 @@ Class MiSesion {
 	public static function empezarSesion($name, $limit = 0, $path = '/', $domain = null, $secure = null) {
 		//Establecemos el nombre de la cookie antes de empezar
 		session_name($name . '_Session');
-		echo "<br>-Init Class-";
+		echo "<br>-Init ... Class-";
 		echo "<br>session_name: ".session_name();
 
 		//Establecemos el dominio por defecto al dominio actual
